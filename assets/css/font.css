@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'SynergyDisplay';
+    src: url(../fonts/SynergyDisplayLight.woff) format('woff');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'SynergyDisplay';
+    src: url(../fonts/SynergyDisplayRegular.woff) format('woff');
+    font-weight: normal, 400;
+}
+@font-face {
+    font-family: 'SynergyDisplay';
+    src: url(../fonts/SynergyDisplayBold.woff) format('woff');
+    font-weight: 700;
+}

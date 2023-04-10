@@ -1,0 +1,23 @@
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+/* 스크롤바 */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-track {
+    background-color: #ddd;
+}
+.hidden{
+    overflow: hidden;
+}

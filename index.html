@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the Careers</title>
+    <link rel="stylesheet" href="./assets/css/fullpage.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+	
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./assets/js/fullpage.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</head>
+<body>
+
+    <!-- @@전체영역 -->
+    <div class="wrapper">
+
+        <!-- @@header -->
+        <header class="header">
+            <div class="inner">
+                <h1 class="logo">
+                    <a href="">
+                        <span class="blind">더커리어</span>
+                    </a>
+                </h1>
+                <nav class="gnb">
+                    <ul class="cate-list">
+                        <li class="cate-item"><a href="">채용 공고</a></li>
+                        <li class="cate-item"><a href="">Family</a></li>
+                        <li class="cate-item"><a href="">로그인</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <main class="container">
+
+            <!-- fix pagination -->
+            <div class="fix-pagination">
+                <div class="num-box">
+                    <span class="curr">01</span>
+                    /
+                    <span class="all">03</span>
+                </div>
+                <div class="bar-box">
+                    <i class="bar"></i>
+                </div>
+                <div class="btn-box">
+                    <div class="btn prev"><span class="blind">이전</span></div>
+                    <div class="btn next"><span class="blind">다음</span></div>
+                </div>
+            </div>
+
+
+            <div id="fullpage">
+                <div class="section" id="section0">
+                    <!-- 영상 영역 -->
+                    <section class="sc-visual">
+                        <h2 class="blind">메인 영상 및 슬로건</h2>
+                        <div class="dim"></div>
+                        <div class="video-area">
+                            <video autoplay loop muted>
+                                <source src="./assets/mov/main-video.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="text-area">
+                            <strong class="slogan">기회가 여기 있어요</strong> 
+                            <span class="desc">
+                                당신의 가치를 제대로 인정받을 기회,<br>
+                                꿈에 더 가까이 다가갈 수 있는 기회,<br>
+                                지금 만나보세요
+                            </span>
+                        </div>
+
+                        <div class="popup">
+                            <div class="select-top">
+                                <div class="select-wrap medium">
+                                    <button type="button" class="btn-select">
+                                    전체 회사
+                                    </button>
+                                    <ul class="select-list">
+                                        <li><button type="button" class="select-item">전체 회사</button></li>
+                                        <li><button type="button" class="select-item">11번가</button></li>
+                                        <li><button type="button" class="select-item">F&U신용정보</button></li>
+                                        <li><button type="button" class="select-item">FSK L&S(주)</button></li>
+                                        <li><button type="button" class="select-item">SAPEON Korea</button></li>
+                                        <li><button type="button" class="select-item">SK브로드밴드</button></li>
+                                        <li><button type="button" class="select-item">SK쉴더스</button></li>
+                                        <li><button type="button" class="select-item">SK스퀘어</button></li>
+                                        <li><button type="button" class="select-item">SK엠앤서비스</button></li>
+                                    </ul>
+                                </div>
+                                <span class="text">에서</span>
+                            </div>
+                            <div class="select-bottom">
+                                <div class="select-wrap small">
+                                    <button type="button" class="btn-select">
+                                    경력(Expert)
+                                    </button>
+                                    <ul class="select-list">
+                                        <li><button type="button" class="select-item">경력(Expert)</button></li>
+                                        <li><button type="button" class="select-item">신입(Junior)</button></li>
+                                        <li><button type="button" class="select-item">인턴</button></li>
+                                    </ul>
+                                </div>
+                                <div class="select-wrap large">
+                                    <button type="button" class="btn-select">
+                                    모든
+                                    </button>
+                                    <ul class="select-list">
+                                        <li><button type="button" class="select-item">모든</button></li>
+                                        <li><button type="button" class="select-item">마케팅</button></li>
+                                        <li><button type="button" class="select-item">브랜딩</button></li>
+                                        <li><button type="button" class="select-item">B2C Sales</button></li>
+                                        <li><button type="button" class="select-item">B2B Sales</button></li>
+                                        <li><button type="button" class="select-item">정보보호</button></li>
+                                        <li><button type="button" class="select-item">Sales지원</button></li>
+                                        <li><button type="button" class="select-item">상품/서비스 기획</button></li>
+                                        <li><button type="button" class="select-item">UI/UX Design</button></li>
+                                        <li><button type="button" class="select-item">기술전략/기획</button></li>
+                                        <li><button type="button" class="select-item">프로젝트 관리</button></li>
+                                        <li><button type="button" class="select-item">Frontend 개발</button></li>
+                                        <li><button type="button" class="select-item">Backend 개발</button></li>
+                                    </ul>
+                                </div>
+                                <span class="text">직무를 찾고 있습니다.</span>
+                            </div>
+                            <button type="submit" class="btn-search">검색</button>
+                        </div>
+                    </section>
+                    
+                    <!-- 마우스 애니메이션 -->
+                    <div class="mouse-icon"></div>
+                </div>
+
+                <div class="section" id="section1">
+                    <section class="sc-member">
+                        <div class="inner">
+                            <div class="text-area">
+                                <h2 class="slogan">도전해 보세요</h2>
+                                <p class="desc">아무도 시도하지 않은 일이면 어때요?<br>
+                                    꿈을 같이 이뤄 나갈 동료들이 이렇게나 많은데요</p>
+                            </div>
+                        </div>
+                        <div class="image-area">
+                            <div class="swiper member-slide">
+                                <div class="left-bg"></div>
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="slide-wrap">
+                                            <div class="member-img">
+                                                <img src="./assets/img/img-member01.png" alt>
+                                            </div>
+                                            <div class="member-info">
+                                                <div class="logo">
+                                                    <img src="./assets/img/logo-skplanet.png" alt="SK planet">
+                                                </div>
+                                                <div class="info">
+                                                    <span class="team">Data Engineering팀</span>
+                                                    <strong class="name">이지연님</strong>
+                                                </div>
+                                            </div>
+                                            <div class="hover">
+                                                <p>“성장은 경험을 통해<br>
+                                                이뤄진다고 생각해요.”</p>
+                                                <a href="" class="plus"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slide-wrap">
+                                            <div class="member-img">
+                                                <img src="./assets/img/img-member02.png" alt>
+                                            </div>
+                                            <div class="member-info">
+                                                <div class="logo">
+                                                    <img src="./assets/img/logo-11st.png" alt="11번가">
+                                                </div>
+                                                <div class="info">
+                                                    <span class="team">Platform Engineering팀</span>
+                                                    <strong class="name">김보배님</strong>
+                                                </div>
+                                            </div>
+                                            <div class="hover">
+                                                <p>“서로의 경험을 나누며<br>
+                                                더 나은것을 찾아갑니다.”</p>
+                                                <a href="" class="plus"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slide-wrap">
+                                            <div class="member-img">
+                                                <img src="./assets/img/img-member03.png" alt>
+                                            </div>
+                                            <div class="member-info">
+                                                <div class="logo">
+                                                    <img src="./assets/img/logo-skbroadband.png" alt="SK broadband">
+                                                </div>
+                                                <div class="info">
+                                                    <span class="team">디지털 Comm팀</span>
+                                                    <strong class="name">문지웅님</strong>
+                                                </div>
+                                            </div>
+                                            <div class="hover">
+                                                <p>“노력하는 사람은<br>
+                                                즐기는 사람을<br>
+                                                이길 수 없다고 하잖아요."</p>
+                                                <a href="" class="plus"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slide-wrap">
+                                            <div class="member-img">
+                                                <img src="./assets/img/img-member04.png" alt>
+                                            </div>
+                                            <div class="member-info">
+                                                <div class="logo">
+                                                    <img src="./assets/img/logo-tmap.png" alt="Tmap Mobility">
+                                                </div>
+                                                <div class="info">
+                                                    <span class="team">Mobility 기획그룹</span>
+                                                    <strong class="name">노영준님</strong>
+                                                </div>
+                                            </div>
+                                            <div class="hover">
+                                                <p>“내가 그리고 싶은<br>
+                                                미래를 마음껏<br>
+                                                그려볼 수 있는 곳이예요."</p>
+                                                <a href="" class="plus"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slide-wrap">
+                                            <div class="member-img">
+                                                <img src="./assets/img/img-member05.png" alt>
+                                            </div>
+                                            <div class="member-info">
+                                                <div class="logo">
+                                                    <img src="./assets/img/logo-skshieldus.png" alt="SK shieldus">
+                                                </div>
+                                                <div class="info">
+                                                    <span class="team">송파지사</span>
+                                                    <strong class="name">김기열님</strong>
+                                                </div>
+                                            </div>
+                                            <div class="hover">
+                                                <p>“성장은 경험을 통해<br>
+                                                이뤄진다고 생각해요.”</p>
+                                                <a href="" class="plus"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slide-wrap">
+                                            <div class="member-img">
+                                                <img src="./assets/img/img-member06.png" alt>
+                                            </div>
+                                            <div class="member-info">
+                                                <div class="logo">
+                                                    <img src="./assets/img/logo-sktelecom.png" alt="SK telecom">
+                                                </div>
+                                                <div class="info">
+                                                    <span class="team">MNO IT최적화팀</span>
+                                                    <strong class="name">박인우님</strong>
+                                                </div>
+                                            </div>
+                                            <div class="hover">
+                                                <p>“성장은 경험을 통해<br>
+                                                이뤄진다고 생각해요.”</p>
+                                                <a href="" class="plus"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slide-wrap">
+                                            <div class="member-img">
+                                                <img src="./assets/img/img-member04.png" alt>
+                                            </div>
+                                            <div class="member-info">
+                                                <div class="logo">
+                                                    <img src="./assets/img/logo-tmap.png" alt="Tmap Mobility">
+                                                </div>
+                                                <div class="info">
+                                                    <span class="team">Mobility 기획그룹</span>
+                                                    <strong class="name">노영준님</strong>
+                                                </div>
+                                            </div>
+                                            <div class="hover">
+                                                <p>“내가 그리고 싶은<br>
+                                                미래를 마음껏<br>
+                                                그려볼 수 있는 곳이예요."</p>
+                                                <a href="" class="plus"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <div class="swiper-btn prev"><span class="blind">이전</span></div>
+                                    <div class="swiper-btn next"><span class="blind">다음</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="section " id="section2">
+                    <section class="sc-info">
+                        <div class="inner">
+                            <h2 class="blind">채용 관련 정보</h2>
+                            <div class="cont-area">
+                                <div class="cont-box on">
+                                    <p class="title">
+                                        현재 <strong>141</strong>건의 채용이 진행 중입니다
+                                    </p>
+                                    <a href=""><span class="link-more">진행 중인 채용 보기</span></a>
+                                </div>
+                                <div class="sub">
+                                    <div class="sub-box">
+                                        <div class="text-wrap">
+                                            <strong class="sub-title">우리가 함께할게요</strong>
+                                            <p class="desc">하고 싶은 일을 해낼 수 있도록<br>
+                                            존중하고 응원해 주는 곳에서 같이 성장해요</p>
+                                        </div>
+                                        <img src="./assets/img/gif-info01.gif" alt>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cont-area">
+                                <div class="cont-box">
+                                    <p class="title">
+                                        <strong>17</strong>개의 SK ICT Family사를 확인해 보세요
+                                    </p>
+                                    <a href=""><span class="link-more">SK ICT Family사 보기</span></a>
+                                </div>
+                                <div class="sub">
+                                    <div class="sub-box">
+                                        <div class="text-wrap">
+                                            <span class="sub-title">시너지의 힘을 믿습니다.</span>
+                                            <span class="desc">불가능해 보이는 일도, 함께 믿고 나아간다면<br>
+                                                결국 답을 찾아낼 수 있다고 믿습니다.</span>
+                                        </div>
+                                        <img src="./assets/img/gif-info02.gif" alt>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cont-area">
+                                <div class="cont-box">
+                                    <p class="title">더 많은 기회가 찾아올 수 있도록<br>
+                                        당신의 <strong>인재 DB</strong> 를 등록해 주세요</p>
+                                    <a href=""><span class="link-more">인재 DB 등록하기</span></a>
+                                </div>
+                                <div class="sub">
+                                    <div class="sub-box">
+                                        <div class="text-wrap">
+                                            <span class="sub-title">지금, 다양한 분야와 직무가<br>
+                                                당신의 능력을 기다리고 있습니다.</span>
+                                        </div>
+                                        <img src="./assets/img/gif-info03.gif" alt>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- @@푸터 -->
+                <div class="section fp-auto-height" id="section3">
+                    <footer class="footer">
+                        <section class="inner">
+                            <h2 class="blind">더커리어푸터</h2>
+                            <div class="group-info">
+                                <div class="channel-area">
+                                    <h3 class="title">채널</h3>
+                                    <ul class="link-list">
+                                        <li class="link-item"><a href="">SK 채용 YouTube</a></li>
+                                        <li class="link-item"><a href="">SK 채용 Blog</a></li>
+                                    </ul>
+                                </div>
+                                <div class="site-area">
+                                    <h3 class="title">패밀리사 인재 영입 사이트</h3>
+                                    <div class="site-wrap">
+                                        <ul class="link-list">
+                                            <li class="link-item"><a href="">SK텔레콤</a></li>
+                                            <li class="link-item"><a href="">SK브로드밴드</a></li>
+                                            <li class="link-item"><a href="">11번가</a></li>
+                                        </ul>
+                                        <ul class="link-list">
+                                            <li class="link-item"><a href="">SK플래닛</a></li>
+                                            <li class="link-item"><a href="">TMAP MOBILITY</a></li>
+                                            <li class="link-item"><a href="">SK쉴더스</a></li>
+                                        </ul>
+                                        <ul class="link-list">
+                                            <li class="link-item"><a href="">F&U신용정보</a></li>
+                                            <li class="link-item"><a href="">인크로스</a></li>
+                                            <li class="link-item"><a href="">FSK L&S(주)</a></li>
+                                        </ul>
+                                        <ul class="link-list">
+                                            <li class="link-item"><a href="">SK텔링크</a></li>
+                                            <li class="link-item"><a href="">행복한울</a></li>
+                                            <li class="link-item"><a href="">드림어스컴퍼니</a></li>
+                                        </ul>
+                                        <ul class="link-list">
+                                            <li class="link-item"><a href="">SK커뮤니케이션즈</a></li>
+                                            <li class="link-item"><a href="">원스토어</a></li>
+                                            <li class="link-item"><a href="">SK엠앤서비스</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="notice-area">
+                                    <h3 class="title">공지/문의</h3>
+                                    <ul class="link-list">
+                                        <li class="link-item"><a href="">공지 사항</a></li>
+                                        <li class="link-item"><a href="">자주 하는 질문</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="group-corp">
+                            <div class="inner">
+                                <a href="">개인정보 처리방침</a>
+                                <p>COPYRIGHT© the Careers. ALL RIGHTS RESERVED.</p>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </main>
+        
+    </div> 
+
+</body>
+</html>
+
+

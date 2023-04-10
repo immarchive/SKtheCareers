@@ -1,0 +1,143 @@
+@import url(./font.css);
+@import url(./reset.css);
+@import url(./common.css);
+
+
+
+/* @@헤더 */
+.header{
+    transition: background-color 0.2s;
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: transparent;
+    height: 89px;
+}
+.header:hover{
+    background: #fff;
+}
+.header:hover .gnb .cate-list .cate-item{
+    color: #000;
+}
+.header .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 89px;
+}
+
+
+.header .logo a{
+    height: 100%;
+    display: block;
+    background: url(../img/logo-white.png) no-repeat center / cover;
+    width: 157px;
+    height: 21.5px;
+}
+.header .logo a.on{
+    background: url(../img/logo-blcak.png) no-repeat center / cover;
+}
+.header .logo img{
+    display: block;
+    width: 9.85rem;
+}
+
+.header .gnb .cate-list{
+    display: flex;
+    gap: 2rem;
+}
+.header .gnb .cate-list .cate-item{
+    color: #fff;
+    height: 100%;
+    transition: 0.2s;
+}
+.header .gnb .cate-list .cate-item:hover{
+    color: #ff4f2e;
+}
+
+
+
+/* @@화이트 배경 영역 헤더 */
+.header.on{
+    height: 69px;
+    background: #fff;
+    border-bottom: 1px solid #e4e4e4;
+}
+.header.on .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+}
+.header.on .logo a{
+    height: 100%;
+    display: block;
+    background: url(../img/logo-blcak.png) no-repeat center / cover;
+    width: 157px;
+    height: 21.5px;
+}
+.header.on .gnb .cate-list .cate-item{
+    color: #000;
+}
+.header.on .gnb .cate-list .cate-item:hover{
+    color: #ff4f2e;
+}
+
+
+
+/* @@푸터 */
+.footer{
+    background-color: #efefef;
+}
+.footer .group-info{
+    padding: 4.9rem 0 4.25rem;
+    display: flex;
+    gap: 100px;
+}
+.footer .group-info .site-area{
+    margin-left: 60px;
+}
+.footer .group-info .title{
+    font-weight: 700;
+    font-size: 16px;
+    color: #989898;
+    letter-spacing: -0.04rem;
+}
+.footer .group-info .site-area .site-wrap{
+    display: flex;
+    gap: 60px;
+}
+.footer .group-info .link-list{
+    margin-top: 1.5rem;
+}
+.footer .group-info .link-list .link-item{
+    margin-top: 10px;
+}
+.footer .group-info .link-list .link-item a{
+    display: block;
+    font-size: 15px;
+    letter-spacing: -0.0375rem;
+    color: rgba(152, 152, 152, 0.7);
+}
+
+.footer .group-corp{
+    padding: 3.5rem 0 4.75rem;
+    border-top: 1px solid rgba(152, 152, 152, 0.2);
+}
+.footer .group-corp a{
+    display: block;
+    position: relative;
+    font-size: 15px;
+    letter-spacing: -0.0375rem;
+    color: rgba(152, 152, 152, 0.7);
+}
+.footer .group-corp p{
+    margin-top: 0.6rem;
+    color: rgba(152, 152, 152, 0.7);
+    font-size: 20px;
+}
+
+.fp-watermark{
+    display: none;
+}
