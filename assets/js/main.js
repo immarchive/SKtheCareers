@@ -1,7 +1,7 @@
 $(function(){
 	
     //풀페이지
-    var fullPage = new fullpage('#fullpage', {
+    const fullPage = new fullpage('#fullpage', {
         verticalCentered: true,
 
         afterLoad: function (anchorLink, index) {
@@ -27,7 +27,7 @@ $(function(){
                 $('.header,.mouse-icon').removeClass('on')
             }
 
-            if(idx===1||idx===2){
+            if(idx === 1 || idx === 2){
                 $('.fix-pagination').addClass('black');
             }else{
                 $('.fix-pagination').removeClass('black');
@@ -45,7 +45,7 @@ $(function(){
     //기초세팅 - 스크롤 막기
     fullPage.setAllowScrolling(false);
 
-   function down(){ //내렸을 때 
+    function down(){ //내렸을 때 
         fullPage.setAllowScrolling(false);
 
         $('.sc-visual').addClass('show'); //팝업 등장

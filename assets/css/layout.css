@@ -25,6 +25,7 @@
     justify-content: space-between;
     align-items: center;
     height: 89px;
+    min-width: 600px;
 }
 
 
@@ -140,4 +141,45 @@
 
 .fp-watermark{
     display: none;
+}
+
+
+
+
+
+/* 1025 ~ 1200px까지 보이는 화면. 최소치인 1025를 보고 작업 */
+@media (max-width:1200px) {
+	.header .inner{
+        width: auto;
+        padding: 0 30px;
+    }
+
+    .footer .group-info{
+        display: block;
+        padding: 3rem 0;
+    }
+    .footer .group-info .link-list{
+        margin-top: 0;
+    }
+    .footer .group-info .link-list .link-item{
+        margin: 5px 0;
+    }
+    .footer .group-info .site-area{
+        margin: 25px 0;
+    }
+    .footer .group-info .site-area .site-wrap{
+        gap: 40px;
+    }
+    .footer .group-corp{
+        padding: 2rem 0 4rem;
+    }
+}
+
+/* 768 ~ 1024px까지 보이는 화면. 최소치인 768을 보고 작업 */
+@media (max-width:1024) { 
+}
+
+/* 320 ~ 767px까지 보이는 화면. 최소치인 320을 보고 작업 */
+@media (max-width:767px) { 
+	@content;
 }
